@@ -9,6 +9,7 @@ import { FontAwesomeModule, FaIconLibrary } from '@fortawesome/angular-fontaweso
 import { HomeComponent } from './home/home.component';
 import { HeaderComponent } from './core/components/header/header.component';
 import { TableComponent } from './core/components/table/table.component';
+import { FooterComponent } from './core/components/footer/footer.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { TableComponent } from './core/components/table/table.component';
     AppComponent,
     HomeComponent,
     HeaderComponent,
-    TableComponent
+    TableComponent,
+    FooterComponent
   ],
   imports: [
     AppRoutingModule,
